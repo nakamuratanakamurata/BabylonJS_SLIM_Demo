@@ -73,8 +73,8 @@ let canvas; //canvas要素 (描画領域)
         box.addBehavior(dragBehavior); 
         //SceneLoaderを使って3Dモデルを読み込む
         BABYLON.SceneLoader.LoadAssetContainer(
-          "https://cdn.glitch.global/bbefe68d-056e-4862-9c84-303f96d8aad0/SoineAR.glb?v=1681553399525", //3Dモデルが置かれたフォルダ or 3DモデルのURL
-          "", //3Dモデルのファイル名。上記でモデルのURLを指定した場合は空でOK
+          "slim_3Dmodel.glb", //3Dモデルが置かれたフォルダ or 3DモデルのURL
+          "slim_3Dmodel.glb", //3Dモデルのファイル名。上記でモデルのURLを指定した場合は空でOK
           scene, //オブジェクトを追加する先のScene 
           function (container) {
             //Babylon.jsでは0番目のメッシュはただのroot。1番目にモデルの実体。
